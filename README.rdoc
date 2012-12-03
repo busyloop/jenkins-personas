@@ -1,0 +1,34 @@
+= Jenkins Personas
+
+A few personas for the {Jenkins}[http://jenkins-ci.org] {Persona plugin}[https://wiki.jenkins-ci.org/display/JENKINS/Persona+Plugin].
+
+== Installation
+
+1. Install the Jenkins {Persona plugin}[https://wiki.jenkins-ci.org/display/JENKINS/Persona+Plugin].
+
+2. Clone, copy or symlink the personas to where the plugin will find them:
+    mkdir -p $JENKINS_HOME/persona
+    cd $JENKINS_HOME/persona
+    git clone https://github.com/busyloop/jenkins-personas.git
+
+3. Hit http://$JENKINS_HOST/reload-persona/ in your browser to make the plugin reload the personas.
+
+4. Associate your jobs with personas in the web-interface:
+    Configure -> Add post-build action -> Associate persona
+
+== License
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+   Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+   Everyone is permitted to copy and distribute verbatim or modified
+   copies of this license document, and changing it is allowed as long
+   as the name is changed.
+
+   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. You just DO WHAT THE FUCK YOU WANT TO.
+
