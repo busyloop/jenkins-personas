@@ -1,0 +1,9 @@
+<persona id='gob' displayName='George Oscar Bluth Jr.'>
+
+    <quote type="success">"I hear the jury's still out on science."</quote>
+
+	<quote type="failure">"I've made a huge mistake."</quote>
+	<quote type="failure">Hello darkness, my old friend...</quote>
+
+	<quote type="other">Hello darkness, my old friend...</quote>
+</persona>
